@@ -11,8 +11,11 @@ The code can be compiled with:
 `g++ -O3 -o nums countdown_number_solver.cpp`
 
 And then ran with:
+
 `./nums [numbers] [target] [optional number of solutions]`
+
 e.g.
+
 `./nums 100-50-25-2-3-1 949 3`
 
 To get:

@@ -1,6 +1,6 @@
 # Countdown Numbers C++
 
-I decided that it was time to learn C++, this is a C++ version of [my other countdown solver I made in Python.](https://github.com/OwenPendrighElliott/countdown_solver)
+I decided that it was time to start learning C++, this is a C++ version of [my other countdown solver I made in Python.](https://github.com/OwenPendrighElliott/countdown_solver)
 
 Due to the speed of C++ in comparison to Python this version uses some slightly different optimisations and can search for an arbitrary number of solutions.
 

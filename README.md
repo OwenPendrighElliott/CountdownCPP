@@ -4,6 +4,8 @@ I decided that it was time to learn C++, this is a C++ version of [my other coun
 
 Due to the speed of C++ in comparison to Python this version uses some slightly different optimisations and can search for an arbitrary number of solutions.
 
+One such optimisation is that the second of the two numbers you do an operation on only needs to be one of the last two unused numbers that have been computed. In other words, there is never a need for more than one intermediate calculation. This knowledge allows us to do a DFS search without having to worry about the results of steps not being used.
+
 ## Usage
 
 The code can be compiled with:
